@@ -34,9 +34,9 @@ namespace WordFinder
                 Console.WriteLine("There a problem with the inputed data\n");
                 Console.WriteLine(e.Message);
             }
-            catch (Exception e)
+            catch
             {
-                Console.WriteLine("There a umpredicted error\n");
+                Console.WriteLine("There a unpredicted error\n");
                 throw;
             }
 
