@@ -34,6 +34,11 @@ namespace WordFinder
                 Console.WriteLine("There a problem with the inputed data\n");
                 Console.WriteLine(e.Message);
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("There a umpredicted error\n");
+                throw;
+            }
 
             Console.ReadKey();
         }
